@@ -23,7 +23,7 @@ The basic types are
 - `load(file::PolicyFile)`
 - `load(file::MDPFile)`
 - `save(file::PolicyFile, policy::Policy)`
-- `save(file::MDPFile, mdp::DiscreteMDP)
+- `save(file::MDPFile, mdp::DiscreteMDP)'
 
 ## Model functions
 
