@@ -34,3 +34,9 @@ The basic types are
 - `transition(mdp::DiscreteMDP, state, action, nextState)` returns probability
 - `nextStates(mdp::DiscreteMDP, state, action)` returns arrays of state indices and their corresponding probabilities 
 
+## Policy Functions
+
+-'action(p::Policy, state)' retuns the action according to policy p
+-'value(p::Policy, state, action)' returns the expected value for a (s,a) pair
+-'value(p::Policy, state)' returns the optimal expeted value for state s
+
