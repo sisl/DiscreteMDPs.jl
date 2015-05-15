@@ -37,5 +37,13 @@ nextStates(mdp::DiscreteMDP, state, aciton) = error("$(typeof(mdp)) does not imp
 numStates(mdp::DiscreteMDP) = length(collect(states(mdp)))
 numActions(mdp::DiscreteMDP) = length(collect(actions(mdp)))
 
-end # module
+# policy functions
+export action, value
 
+action(p::Policy, state) = error("$(typeof(p)) does not implement action") # returns the action according to the policy p
+value(p::Policy, state, action) = error("$(typeof(p)) does not implement value") # returns the expected value for a (s,a) pair
+value(p::Policy, state) = error("$(typeof(p)) does not implement value") # returns the optimal expeted value for state s
+
+
+
+end # module
