@@ -36,7 +36,7 @@ The basic types are
 
 ## Policy Functions
 
-- 'action(p::Policy, state)' retuns the action according to policy p
-- 'value(p::Policy, state, action)' returns the expected value for a (s,a) pair
-- 'value(p::Policy, state)' returns the optimal expeted value for state s
+- `action(p::Policy, state)` retuns the action according to policy p
+- `value(p::Policy, state, action)` returns the expected value for a (s,a) pair
+- `value(p::Policy, state)` returns the optimal expeted value for state s
 
