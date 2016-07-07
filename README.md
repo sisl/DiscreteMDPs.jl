@@ -1,5 +1,7 @@
 # DiscreteMDPs
 
+Note: this repository is depricated. For a a package with more features, and support for both MDPs and POMDPs see [POMDPs.jl](https://github.com/JuliaPOMDP/POMDPs.jl).
+
 This package provides a basic interface for working with discrete Markov decision processes (MDPs).
 
 ## Basic Types
